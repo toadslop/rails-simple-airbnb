@@ -1,3 +1,94 @@
 // Place all the styles related to the flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.flat-pic {
+    width: 360px; /* width of container */
+    height: 180px; /* height of container */
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  justify-content: space-between;
+  border: none;
+  box-shadow: 1px 1px 8px lightgrey;
+  margin: 16px;
+  font-family: sans-serif;
+}
+
+.card-content {
+  background-color: #F8F9FA;
+  padding: 16px;
+}
+
+.card-nums {
+  display: flex;
+}
+
+.card-nums p {
+  margin-right: 8px;
+}
+
+.card-buttons {
+  display: flex;
+  font-size: 16px;
+  background-color: white;
+  margin: 0;
+  padding: 16px;
+}
+
+.card-buttons p {
+  margin: 0px 8px;
+}
+
+.banner-image {
+  width: 100%; /* width of container */
+  height: 400px; /* height of container */
+  object-fit: cover;
+}
+
+.shift-up {
+  position: relative;
+  top: -100px;
+}
+
+.large-card {
+  background-color: #F8F9FA;
+  width: 60%;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.large-card h3 {
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.large-card h2 {
+  font-weight: 100;
+}
+
+.sidebar-card {
+  background-color: #F8F9FA;
+  width: 30%;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.flex-display {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.main-content {
+  width: 1500px;
+}
+
+.sidebar-content {
+  width: 40%;
+}

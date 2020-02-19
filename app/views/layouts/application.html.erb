@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <div class="navbar">
+      <h3>Simple Airbnb</h3>
+      <div class="buttons">
+        <input class="search" name="query" type="search" placeholder="Search" aria-label="Search" value="">
+        <button class="button blue" type="submit">Search</button>
+        <a class="button green" href="/flats/new">Add Flat</a>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
